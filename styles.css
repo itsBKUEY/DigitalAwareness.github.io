@@ -278,6 +278,8 @@ footer {
     position: relative;
 }
 .img-wrapper {
+    width: 90%;
+
     position: relative;
     overflow: hidden;
     border-radius: var(--radius-md);
@@ -286,6 +288,10 @@ footer {
     box-shadow: var(--boxshadow-medium);
     transition: transform var(--transition-normal), 
                 box-shadow var(--transition-normal);
+}
+#imgsmall {
+    width: 80%;
+
 }
 
 .img-wrapper:hover {
@@ -350,6 +356,9 @@ footer {
     opacity: 0.1;
     animation: shimmer 1.5s infinite;
 }
+#radicalizationCanvas{
+    width: 100%;
+   }
 /**/
 
 
@@ -373,6 +382,7 @@ footer {
         border-right: none;
         border-bottom: 2px solid var(--secondary-red);
     }
+   
 
     main, footer {
         margin-left: 0;
