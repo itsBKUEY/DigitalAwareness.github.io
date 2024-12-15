@@ -360,7 +360,30 @@ footer {
     width: 100%;
    }
 /**/
-
+section a:link {
+    color: #fdfdfd;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+section a:visited {
+    color: #fdfdfd;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+ section a:hover {
+    color: #004080;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+section a:active {
+    color: #376fa7;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  /**/
 
 @keyframes shimmer {
     0% { transform: translateX(-100%); }
